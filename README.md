@@ -7,6 +7,13 @@ This project analyses over 15.79 million climate-related tweets collected betwee
 
 The analysis was carried out using SQL for data cleaning, transformation, and querying, while Power BI was used to develop interactive visualizations and dashboards. The project follows a complete end-to-end data analytics process, from raw data preparation to insight generation and reporting.
 
+
+---
+
+## 📂 Data Source
+The raw dataset used in this project can be accessed here:  
+[Climate Twitter Dataset]()
+
 ---
 
 ## 🎯 Objectives
