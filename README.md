@@ -12,7 +12,7 @@ The analysis was carried out using SQL for data cleaning, transformation, and qu
 
 ## 📂 Data Source
 The raw dataset used in this project can be accessed here:  
-[Climate Twitter Dataset]()
+[Climate Twitter Dataset](https://doi.org/10.1016/j.eswa.2022.117541)
 
 ---
 
