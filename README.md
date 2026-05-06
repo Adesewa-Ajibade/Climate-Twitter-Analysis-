@@ -121,7 +121,7 @@ An interactive dashboard was developed to present insights clearly.
 
 ### 🔗 Dashboard Link
 
-👉 **(https://app.powerbi.com/view?r=eyJrIjoiOTk5NTU2YTAtN2I5NC00ODY2LWIxYmYtZjJmMTllNmVlZDE0IiwidCI6IjdhY2M3YWZiLWQ0ODMtNGMzOC1iYmU2LTRkYzQ5NmI1N2VhMiJ9)**
+👉 **[Climate Twitter Dataset](https://app.powerbi.com/view?r=eyJrIjoiOTk5NTU2YTAtN2I5NC00ODY2LWIxYmYtZjJmMTllNmVlZDE0IiwidCI6IjdhY2M3YWZiLWQ0ODMtNGMzOC1iYmU2LTRkYzQ5NmI1N2VhMiJ9)**
 
 ---
 
@@ -295,7 +295,8 @@ ORDER BY year;
 Uploading stage 4.1.sql…]()
 
  ┣ 📂 PowerBI
- ┃ ┗ dashboard.pbix
+ ┃ ┗ [Climate Twitter Dataset](https://app.powerbi.com/view?r=eyJrIjoiOTk5NTU2YTAtN2I5NC00ODY2LWIxYmYtZjJmMTllNmVlZDE0IiwidCI6IjdhY2M3YWZiLWQ0ODMtNGMzOC1iYmU2LTRkYzQ5NmI1N2VhMiJ9)
+
  ┣ 📂 docs
  ┃ ┗ [climate twitter dataset report.pdf](https://github.com/user-attachments/files/27451830/climate.twitter.dataset.report.pdf)
 
