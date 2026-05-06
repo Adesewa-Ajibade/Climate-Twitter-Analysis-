@@ -1,4 +1,4 @@
-[climate twitter dataset report.pdf](https://github.com/user-attachments/files/27451827/climate.twitter.dataset.report.pdf)[stage 4.1.sql](https://github.com/user-attachments/files/27451806/stage.4.1.sql)# Climate-Twitter-Analysis-
+# Climate-Twitter-Analysis-
 
 # 🌍 Climate Change Sentiment Analysis (2006-2019)
 
@@ -112,7 +112,7 @@ An interactive dashboard was developed to present insights clearly.
 <img width="1457" height="853" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/91f7cede-21b3-45fa-839b-d80676c78aea" />
 
 * **Page 2:** Topic & Aggression Analysis
-* <img width="1416" height="841" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/df8abb18-2fb1-4f93-b127-05ba73d398ea" />
+   <img width="1416" height="841" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/df8abb18-2fb1-4f93-b127-05ba73d398ea" />
 ### 🎛️ Features
 
 * Interactive slicers (Year, Topic, Gender, Stance)
@@ -121,7 +121,7 @@ An interactive dashboard was developed to present insights clearly.
 
 ### 🔗 Dashboard Link
 
-👉 **eyJrIjoiOTk5NTU2YTAtN2I5NC00ODY2LWIxYmYtZjJmMTllNmVlZDE0IiwidCI6IjdhY2M3YWZiLWQ0ODMtNGMzOC1iYmU2LTRkYzQ5NmI1N2VhMiJ9**
+👉 **(https://app.powerbi.com/view?r=eyJrIjoiOTk5NTU2YTAtN2I5NC00ODY2LWIxYmYtZjJmMTllNmVlZDE0IiwidCI6IjdhY2M3YWZiLWQ0ODMtNGMzOC1iYmU2LTRkYzQ5NmI1N2VhMiJ9)**
 
 ---
 
