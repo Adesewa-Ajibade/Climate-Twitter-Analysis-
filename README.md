@@ -53,8 +53,8 @@ The cleaning process included:
 	•	Standardising text formatting using the INITCAP function to maintain consistency
 	•	Converting columns into appropriate data types where necessary
 	•	Creating derived columns, including a year column extracted from the timestamp field for time-based analysis
-
-These steps helped prepare the dataset for efficient querying, accurate analysis, and dashboard development in Power BI.
+ 
+These steps helped make the dataset clean, well-structured, and ready for analysis. As a result, it became easier to run SQL queries, generate accurate insights, and build interactive dashboards in Power BI
 ---
 
 ## 🔄 Data Transformation 
@@ -74,9 +74,11 @@ Exploratory analysis revealed several important trends within the dataset.
 A total of 15.79 million tweets were analysed, with the highest level of activity recorded in 2018, which accounted for approximately 6.25 million tweets. 
 The analysis also showed that public sentiment toward climate change fluctuated over time, moving between positive and negative patterns rather than remaining stable.
 
-Topic-based analysis further highlighted differences in public opinion across climate-related discussions. 
-Some topics recorded relatively positive sentiment scores of approximately 0.24, while others showed more negative sentiment values close to -0.05. 
-In addition, certain topics generated stronger emotional reactions and higher levels of engagement, indicating areas of increased public sensitivity and debate surrounding climate change issues.
+Topic-based analysis showed clear differences in how people feel about various climate-related discussions. Some topics had more positive opinions, with sentiment scores around 0.24, while others were more negative, with values close to -0.05.
+
+This means that not all climate topics are viewed the same way. Some are seen more positively, while others attract criticism or concern.
+
+
 ---
 
 ## 🔍 Diagnostic Analytics
