@@ -23,13 +23,14 @@ The analysis was carried out using SQL for data cleaning, transformation, and qu
 
 * **SQL (PostgreSQL )**
 * **Power BI**
-* 
+
 
 ---
 
 ## 📊 Dataset Description
 
-The dataset contains over **15 million tweets (2008–2022)** with the following features:
+The dataset contains over 15 million tweets (2006–2019) with the following features:
+
 
 * Timestamp (`created_at`)
 * Sentiment score (numeric, including negatives)
@@ -46,6 +47,7 @@ The dataset contains over **15 million tweets (2008–2022)** with the following
 Data cleaning and preparation were performed using SQL to improve data quality, accuracy, and consistency before analysis. Several preprocessing techniques were applied to ensure the dataset was suitable for reporting and visualization.
 
 The cleaning process included:
+
 	•	Removing duplicate records using Common Table Expressions (CTEs)
 	•	Handling missing values in fields such as gender, topic, latitude, and longitude
 	•	Standardising text formatting using the INITCAP function to maintain consistency
@@ -56,7 +58,9 @@ These steps helped prepare the dataset for efficient querying, accurate analysis
 ---
 
 ## 🔄 Data Transformation 
+
 To prepare the dataset for effective analysis, several transformation processes were carried out using   
+
 • A new year column was extracted from the timestamp field to support time-based trend analysis and reporting.
 
 Additional calculated fields were also created to improve analytical depth, including metrics such as:
@@ -76,11 +80,6 @@ In addition, certain topics generated stronger emotional reactions and higher le
 ---
 
 ## 🔍 Diagnostic Analytics
-
-## 🔍 Diagnostic Analytics
-
-### Diagnostic Insights (Why Trends Occur)
-
 This section explains why some patterns appear in the data.
 
 ### Divisiveness
