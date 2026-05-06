@@ -3,10 +3,9 @@
 # 🌍 Climate Change Sentiment Analysis (2006-2019)
 
 ## 📌 Project Overview
+This project analyses over 15.79 million climate-related tweets collected between 2006 and 2019 to examine how public sentiment and stance toward climate change have changed over time. The study also explores the major topics and regions contributing to divisive and aggressive online discourse surrounding climate-related discussions.
 
-This project analyses over **15.79 million climate-related tweets** to understand how public sentiment and stance toward climate change have evolved over a 13-year period. It also identifies the key topics and regions driving **divisive and aggressive discourse**.
-
-The analysis was conducted using **SQL for data processing** and **Power BI for visualization**, following a full end-to-end data analysis workflow.
+The analysis was carried out using SQL for data cleaning, transformation, and querying, while Power BI was used to develop interactive visualizations and dashboards. The project follows a complete end-to-end data analytics process, from raw data preparation to insight generation and reporting.
 
 ---
 
@@ -24,7 +23,7 @@ The analysis was conducted using **SQL for data processing** and **Power BI for 
 
 * **SQL (PostgreSQL )**
 * **Power BI**
-* **GitHub (Documentation & Version Control)**
+* 
 
 ---
 
@@ -44,63 +43,61 @@ The dataset contains over **15 million tweets (2008–2022)** with the following
 
 ## 🧹 Data Preparation & Cleaning
 
-Data cleaning was performed using SQL to ensure accuracy and consistency:
+Data cleaning and preparation were performed using SQL to improve data quality, accuracy, and consistency before analysis. Several preprocessing techniques were applied to ensure the dataset was suitable for reporting and visualization.
 
-* Removed duplicate records using CTEs
-* Handled missing values (e.g., gender, topic, coordinates)
-* Standardised text formatting using `INITCAP`
-* Converted data types where necessary
-* Created new columns such as **year (from timestamp)**
+The cleaning process included:
+	•	Removing duplicate records using Common Table Expressions (CTEs)
+	•	Handling missing values in fields such as gender, topic, latitude, and longitude
+	•	Standardising text formatting using the INITCAP function to maintain consistency
+	•	Converting columns into appropriate data types where necessary
+	•	Creating derived columns, including a year column extracted from the timestamp field for time-based analysis
 
+These steps helped prepare the dataset for efficient querying, accurate analysis, and dashboard development in Power BI.
 ---
 
-## 🔄 Data Transformation
+## 🔄 Data Transformation 
+To prepare the dataset for effective analysis, several transformation processes were carried out using   
+• A new year column was extracted from the timestamp field to support time-based trend analysis and reporting.
 
-To make the dataset suitable for analysis:
-
-* Extracted **year** from timestamp for time-based analysis
-* Created calculated fields such as:
-
-  * Average sentiment
-  * Aggression rate
-* Structured data into analysis-ready tables and views
-
----
+Additional calculated fields were also created to improve analytical depth, including metrics such as:
+	•	Average sentiment scores
+	•	Aggression rate indicators
+The data was structured into analysis-ready tables and views to support efficient querying, dashboard integration, and visualization in Power BI. These transformations improved the usability of the dataset and enabled clearer insight generation.
 
 ## 📈 Data Analysis (Exploratory)
 
-Key trends identified:
+Exploratory analysis revealed several important trends within the dataset. 
+A total of 15.79 million tweets were analysed, with the highest level of activity recorded in 2018, which accounted for approximately 6.25 million tweets. 
+The analysis also showed that public sentiment toward climate change fluctuated over time, moving between positive and negative patterns rather than remaining stable.
 
-* Total tweets analysed: **15.79 million**
-* Peak activity occurred in **2018 (~6.25M tweets)**
-* Sentiment fluctuates over time (positive → negative → unstable trends)
-
-Topic insights:
-
-* Some topics show **positive sentiment (~0.24)**
-* Others show **negative sentiment (~-0.05)**
-* Certain topics generate stronger emotional reactions
-
+Topic-based analysis further highlighted differences in public opinion across climate-related discussions. 
+Some topics recorded relatively positive sentiment scores of approximately 0.24, while others showed more negative sentiment values close to -0.05. 
+In addition, certain topics generated stronger emotional reactions and higher levels of engagement, indicating areas of increased public sensitivity and debate surrounding climate change issues.
 ---
 
 ## 🔍 Diagnostic Analytics
 
-Further analysis was conducted to understand *why* trends occur:
+## 🔍 Diagnostic Analytics
 
-* **Divisiveness:**
+### Diagnostic Insights (Why Trends Occur)
 
-  * Weather-related topics show highest variation (~0.44)
+This section explains why some patterns appear in the data.
 
-* **Aggression:**
+### Divisiveness
+- Weather-related topics show the highest variation (~0.44)  
+- This means people have very different opinions about extreme weather events  
+- Some users are strongly affected by these events, while others are not, which creates disagreement  
 
-  * Average aggression rate is **0.09** (moderate)
+### Aggression
+- Average aggression rate is **0.09** (moderate)  
+- This shows that most tweets are calm or neutral  
+- Only a small number of tweets contain angry or harsh language  
 
-* **Engagement:**
-
-  * Global stance has the highest engagement (~4.1M tweets)
-
+### Engagement
+- Global climate change discussions have the highest engagement (~4.1M tweets)  
+- This means general climate topics attract more attention than specific issues  
+- People are more likely to talk about overall climate change than niche topics  
 ---
-
 ## 📊 Power BI Dashboard
 
 An interactive dashboard was developed to present insights clearly.
@@ -118,7 +115,7 @@ An interactive dashboard was developed to present insights clearly.
 * Interactive slicers (Year, Topic, Gender, Stance)
 * KPI cards (Total Tweets, Avg Sentiment)
 * Line charts, bar charts, and gauge visuals
-
+---
 ### 🔗 Dashboard Link
 
 👉 **[Climate Twitter Dataset](https://app.powerbi.com/view?r=eyJrIjoiOTk5NTU2YTAtN2I5NC00ODY2LWIxYmYtZjJmMTllNmVlZDE0IiwidCI6IjdhY2M3YWZiLWQ0ODMtNGMzOC1iYmU2LTRkYzQ5NmI1N2VhMiJ9)**
@@ -127,26 +124,39 @@ An interactive dashboard was developed to present insights clearly.
 
 ## 💡 Key Insights
 
-* Public sentiment changes significantly over time
-* Engagement peaked around **2018**
-* Topic type strongly influences sentiment
-* Some topics are highly divisive
-* Aggressive discourse exists but is relatively moderate
+- Public sentiment toward climate change is not stable and shows significant variation over time, reflecting changing global conversations, events, and awareness levels.
+
+- Engagement levels peaked around **2018**, indicating a period of heightened global attention and increased discussion activity around climate-related issues.
+
+- The type of topic being discussed has a strong influence on sentiment polarity, meaning certain subjects consistently generate more positive or negative reactions than others.
+
+- Some climate-related topics are highly divisive, with users expressing strongly opposing views, especially on issues linked to environmental impact and policy debates.
+
+- Although aggressive discourse is present within the dataset, it remains relatively moderate overall (average aggression rate ≈ 0.09), suggesting that most discussions are still neutral or opinion-based rather than hostile.
+
+- Overall, the findings highlight that climate change conversations on social media are shaped by both emotional response and topical sensitivity, rather than remaining consistent or uniform over time.
 
 ---
-
-## 🧠 Conclusion
-
-The analysis shows that climate change discussions on social media are shaped by time, topic, and user engagement. Public opinion is dynamic and influenced by global events, with certain topics generating stronger disagreement and emotional intensity.
-
----
-
 ## 📌 Recommendations
 
-* Focus communication on highly divisive topics
-* Monitor aggressive discourse for misinformation risks
-* Increase awareness in low-engagement areas
-* Further investigate drivers of sentiment changes
+- Focus communication on topics that people strongly disagree about, such as extreme weather and environmental policies, because they create the most debate.
+
+- Monitor aggressive posts to help reduce misinformation and harmful messages about climate change.
+
+- Increase awareness in areas and topics where there is low engagement so more people can join the conversation.
+
+- Study what causes changes in public opinion over time, such as major events or climate news, to better understand why sentiment goes up or down.
+
+- Create targeted messages for different topics and audiences to improve understanding and reduce disagreement in online discussions.
+
+---
+## 🧠 Conclusion
+
+This analysis shows that climate change discussions on social media change over time and are influenced by different topics and levels of user engagement.
+
+Public opinion is not fixed. It changes based on global events and ongoing discussions.
+
+Some topics lead to stronger disagreement and more emotional responses, while others remain more neutral and balanced.
 
 ---
 
